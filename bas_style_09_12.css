@@ -1,7 +1,83 @@
-.container{
+.container_3{
     /* margin: 20px 40px 20px 40px; */
-    margin: 10% 15% 10% 15%;
+    margin: 10% 10% 10% 10%;
+    background: radial-gradient(farthest-side at 100px 10px, white,aquamarine );
 }
+
+
+.name{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 52px;
+    /* text-underline-position: no; */
+    font-weight: normal;
+    color:aquamarine;
+    font-kerning: normal;
+    text-align: center;
+    /* padding: 5px; 
+    border: 5px solid white; */
+    /* margin: 2% 2%; */
+    /* border: 5px solid aquamarine;
+    border-bottom:5px solid aquamarine;
+    border-top:5px solid aquamarine */
+    /* padding: 10px 20px 10px 20px; */
+}
+
+.name_white_bg{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 52px;
+    font-weight: normal;
+    background-color: white;
+    /* color:  black; */
+    font-kerning: normal;
+    text-align: center;
+    padding: 100px 20px;
+    margin: 0% 20%;
+    border: 5px 25px 25px 5px  solid aquamarine;
+    /* padding: 10px 20px 10px 20px; */
+    /* margin-bottom: 500px; */
+    top: 400px;
+   }
+
+.name_white_bg:hover{
+    font-family: 'IBM Plex Sans';
+    font-size: 98px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #FFC65C;
+    color: #8368EE;
+    font-kerning: normal;
+    text-align: right;
+    padding: 200px 100px;
+    margin: 2% 2%;
+    border: 40px 40px solid aquamarine;
+
+    /* border-bottom: 20px solid aquamarine;
+    border-top: 20px solid aquamarine; */
+    /* padding: 10px 20px 10px 20px; */
+}
+
+
+
+.name_little{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 24px;
+    /* text-underline-position: no; */
+    font-weight: normal;
+    color:white;
+    font-kerning: normal;
+    text-align: right;
+    padding: 10px; 
+    border: 2px solid white;
+    /* margin: 2% 2%; */
+    /* border: 5px solid aquamarine;
+    border-bottom:5px solid aquamarine;
+    border-top:5px solid aquamarine */
+    /* padding: 10px 20px 10px 20px; */
+}
+
+
+
+
 
 
 .letter{
@@ -42,10 +118,6 @@
     border-left-width: 2px;
     border-right-width: 200px;
 }
-
-
-
-
 
 
 
@@ -93,6 +165,7 @@
 .text_1{
     font-family: 'IBM Plex Sans';
     font-size: 20px;
+    float: right;
     /* font-stretch: expanded;
     font-weight: 400; */
     color: black;
